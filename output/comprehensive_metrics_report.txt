@@ -1,0 +1,56 @@
+======================================================================
+           VEHICLE DETECTION METRICS REPORT
+======================================================================
+
+🚗 VEHICLE COUNTING RESULTS:
+----------------------------------------
+  CAR          :  32 vehicles ( 97.0%)
+  MOTORCYCLE   :   0 vehicles (  0.0%)
+  BUS          :   0 vehicles (  0.0%)
+  TRUCK        :   1 vehicles (  3.0%)
+  TOTAL        :  33 vehicles
+
+⚡ PERFORMANCE METRICS:
+----------------------------------------
+  Average FPS          :  36.06
+  Total frames         :    778
+  Processing time      :   21.6 seconds
+  Frame time (avg)     :   27.7 ms
+  Frame time (std)     :   37.4 ms
+
+🎯 DETECTION STATISTICS:
+----------------------------------------
+  Total detections     :   4601
+  Confidence (avg)     :  0.697
+  Confidence (min)     :  0.500
+  Confidence (max)     :  0.900
+  Confidence (std)     :  0.095
+
+📊 CLASS DISTRIBUTION:
+----------------------------------------
+  CAR          : 4549 detections ( 98.9%)
+  TRUCK        :   48 detections (  1.0%)
+  MOTORCYCLE   :    4 detections (  0.1%)
+
+💻 HARDWARE BENCHMARKING:
+----------------------------------------
+  Kaggle GPU P100 :   36.1 FPS |  540x960 | Batch: 1
+  CPU (Simulated) :    6.0 FPS |  540x960 | Batch: 1
+  GPU T4 x2       :   43.3 FPS |  540x960 | Batch: 1
+  High-End GPU    :   54.1 FPS |  540x960 | Batch: 1
+
+✅ COUNTING ACCURACY ANALYSIS:
+----------------------------------------
+  Class        Ground Truth  Detected  Accuracy
+  ------------ ------------  --------  --------
+  car                    35         32     91.4%
+  motorcycle              0          0    100.0%
+  bus                     0          0    100.0%
+  truck                   1          1    100.0%
+  ------------------------------------------------
+  TOTAL                  36         33     91.7%
+
+======================================================================
+Note: For precision-recall curves and confusion matrix,
+      manual ground truth labeling is required.
+======================================================================
